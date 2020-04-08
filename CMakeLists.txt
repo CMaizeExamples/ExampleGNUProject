@@ -11,7 +11,7 @@ set(LANGUAGE CXX)
 set(CMAKE_CXX_STANDARD 14)
 
 # Include CMake automatically (fetch from GitHub)
-include("${PROJECT_SOURCE_DIR}/cmake/get_cpp.cmake")
+include("${PROJECT_SOURCE_DIR}/cmake/get_cmaize.cmake")
 
 # Add our TravelCostUtils library
 cpp_add_library(
